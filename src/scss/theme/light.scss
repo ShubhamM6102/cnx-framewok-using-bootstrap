@@ -1,0 +1,32 @@
+@use '../theme/colors';
+
+
+
+$body-bg: colors.$white;
+$body-color: colors.$black;
+
+
+//$primary: colors.$primary-blue; 
+
+$theme-colors: (
+    // "secondary":black,
+    //"danger": #ff4136,
+   // bs-btn-hover-bg:colors.$primary-yellow,
+    primary: colors.$primary-blue,
+    secondary:colors.$secondary,
+    success:    colors.$accent-success,
+     info:       colors.$accent-information,
+    warning:    colors.$accent-validation,
+    danger:     colors.$accent-error,
+    light:      colors.$light,
+     dark:       colors.$dark,
+   // btn-hover-bg:colors.$primary-yellow,
+);
+
+
+// @import 'colors.scss';
+
+// $body-bg: $white;
+// $body-color:$black;  
+
+@import 'bootstrap/scss/bootstrap'

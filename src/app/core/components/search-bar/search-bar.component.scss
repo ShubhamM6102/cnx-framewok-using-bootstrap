@@ -1,0 +1,43 @@
+.d-flex{
+    height: 50px;
+}
+
+.search-icon{
+    left: 40px;
+    position: relative;
+    right: 0px;
+    top: 12px;
+    z-index: 1;
+    color: white;
+}
+
+input{
+    background-color: #871f42;
+    border-radius: 1px;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+input:focus{
+    background-color: #871f42;
+    color: white;
+}
+
+.mic{
+    position: relative;
+    right: 47px;
+    top: 12px;
+    color: white;
+}
+// .circle{
+//     background-color: white;
+//     width: 30px;
+//     height: 30px;
+//     border-radius: 50px;
+//     border: 2px solid white;
+//     position: relative;
+//     right: 47px;
+//     top: 12px;
+//     color: black;
+// }

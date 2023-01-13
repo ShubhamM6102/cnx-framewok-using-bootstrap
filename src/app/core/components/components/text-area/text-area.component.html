@@ -1,0 +1,41 @@
+<!-- -----------------------------Text Area---------------------- -->
+<div class="d-flex-column flex-wrap border-bottom border-2 border-gray pb-4 px-4 me-5 mt-4">
+    <h6 class="input">Text Area</h6>
+
+<!--------------------------------Default---------------------------->
+    <div class="d-flex flex-wrap">
+    <div class="d-flex-column text-area">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Required example textarea"></textarea>
+    </div>
+
+    <!--------------------------------Disabled---------------------------->
+    <div class="d-flex-column text-area">
+      <label for="exampleFormControlTextarea1" class="form-label">Disabled</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1"placeholder="Required example textarea"  disabled>Text</textarea>
+    </div>
+
+    <!--------------------------------Readonly---------------------------->
+    <div class="d-flex-column text-area">
+      <label for="exampleFormControlTextarea1" class="form-label">Readonly</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1"placeholder="Required example textarea" readonly >Text</textarea>
+    </div>
+  </div>
+
+  <!--------------------------------Success---------------------------->
+  <div class="d-flex flex-wrap">
+    <div class="d-flex-column text-area">
+      <label for="SuccesTextArea" class="form-label">Success</label>
+      <textarea class="form-control is-valid" id="SuccesTextArea"placeholder="Required example textarea" required>Text</textarea>
+      <div class="valid-feedback">Looks good!</div>
+    </div>
+
+    <!--------------------------------Validation---------------------------->
+    <div class="d-flex-column text-area">
+        <label for="validationTextarea" class="form-label">Validation</label>
+    <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea"  required>Text</textarea>
+    <div class="invalid-feedback">
+      Please enter a valid message.
+    </div>
+  </div>
+</div>

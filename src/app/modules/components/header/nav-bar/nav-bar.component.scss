@@ -1,0 +1,43 @@
+.navbar{
+    // height: 37px;
+    background-color: #871f42;
+    color: white;
+}
+.nav-link {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 5px;
+}
+ .active{
+    // color: #fff;
+    border-bottom: 1px solid #fff;
+}
+ .navbar .nav li.active a {
+    border-bottom: 1px solid #fff;
+    //https://codepen.io/tonycorp/pen/QbOByO
+}
+
+a:active, a:focus ,a:hover{
+  border-bottom: 1px solid #fff;
+  
+  }
+
+
+
+.left-margin{
+    margin-left: 280px;
+}
+.fonts{
+    font-size: 22px;
+}
+
+.btn-group{
+    background-color: #a4224d;
+    // color: white;
+}
+.btn-group > .btn{
+    color: white;
+}
+

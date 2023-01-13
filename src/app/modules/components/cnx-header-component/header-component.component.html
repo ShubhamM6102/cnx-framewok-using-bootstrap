@@ -1,0 +1,78 @@
+
+<nav class="header d-flex flex-wrap navbar-expand-lg ">
+  <div class="container-fluid d-flex flex-wrap">
+    <!-- logo-section -->
+    <div class="logo">
+      <img src="./assets/images/cnx-dark-logo.png" alt="CNX-LOGO" class="cnx-logo ">
+      <i class="fa fa-bars" data-bs-target="#sidebar" data-bs-toggle="collapse"></i>
+      <span  class="overlay"><app-overlay></app-overlay></span>
+    </div>
+
+    <!-- searchBar-section -->
+    <div class="searchbar">
+      <div class="row   justify-content-center align-items-center">
+        <div class="col">
+          <div class="form">
+            <!-- <i class="fa fa-magnifying-glass"></i> -->
+            <input type="text" class="form-control form-input" placeholder="Search anything...">
+            <!-- <span><i class="fa fa-microphone"></i></span> -->
+            <span><i class="fa fa-magnifying-glass"></i></span>
+
+            <!-- <span> <i data-feather="search" class="px-1 pb-2"></i></span> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button> -->
+
+    <!-- </form> -->
+    <!--  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+    <!-- <div class="collapse navbar-collapse" id="mynavbar"> 
+
+     ----------------rightNav-section --------------------->
+    <!-- <div class="header-nav ms-auto"></div> -->
+
+    <!-- ---------------------------Bell Icon---------------------------- -->
+    <!-- <i class="fa fa-magnifying-glass"></i> -->
+    <ul class="list-group list-group-horizontal">
+      <li class="list-group-item">
+        <button type="button" class="icon-button">
+          <i class="fa-regular fa-bell "></i>
+          <span class="icon-button__badge bell-badge bg-danger ">2</span>
+        </button>
+      </li>
+
+      <!-- ------------------------Message Icon--------------------- -->
+      <li class="list-group-item">
+        <button type="button" class="icon-button">
+          <i class="fa-regular fa-message"></i>
+          <span class="icon-button__badge message-badge bg-primary">5</span>
+        </button>
+      </li>
+
+      <!-- ---------------------------Avatar Image-------------------------- -->
+      <li class="list-group-item d-flex">
+        <span> <i data-feather="search" class="search-feather"></i></span> 
+        <img src="assets/images/profileImage.png" alt="Avatar" class="avatar">
+
+        
+
+        <!-- ----------------------Dropdown------------------------------- -->
+        <div class="btn-group">
+          <button class="btn btn-secondary btn-sm dropdown-toggle fw-bold " type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            K.ANDERSON
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>

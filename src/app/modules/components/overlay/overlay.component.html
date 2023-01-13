@@ -1,0 +1,302 @@
+
+  <span style="font-size:30px;cursor:pointer" 
+  (click)="openNav()">&#9776;</span>
+
+<div id="mySidenav" class="sidenav" *ngIf="show">
+    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+    <!-- <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a> -->
+    <div class="accordion pt-5 px-3" id="accordionExample">
+
+        <!-- ------------------------Dashboard-Menu------------------------- -->
+      <div class="accordion-item bg-danger accordion-flush">
+        <h2 class="accordion-header" id="headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+          <i data-feather="home" class="p-1"></i> Dashboard
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <ul>
+              <li>Sales</li>
+              <li>Default</li>
+              <li>Dark Menu</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+      <!-- ----------------------Components----------------------- -->
+      <div class="accordion-item accordion-flush">
+        <h2 class="accordion-header" id="headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            <i data-feather="grid" class="p-1"></i>Components
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <ul>
+              <li>Buttons</li>
+              <li>Card</li>
+              <li>Accordion</li>
+              <li>Carousel</li>
+              <li>Dropdown</li>
+              <li>Progess Bar</li>
+              <li>Tabs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+      <!-- -------------------------Charts-------------------------- -->
+      <div class="accordion-item accordion-flush">
+        <h2 class="accordion-header" id="headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="false"
+            aria-controls="collapseOne"
+          >
+          <i data-feather="bar-chart" class="p-1"></i> Charts
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <ul>
+              <li>Chart.js</li>
+              <li>ApexCharts</li>
+              <li>Echarts</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+      <!-- ------------------Layouts--------------------- -->
+      <div class="accordion-item accordion-flush">
+        <h2 class="accordion-header" id="headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseFour"
+            aria-expanded="false"
+            aria-controls="collapseFour"
+          >
+          <i data-feather="layout" class="p-1"></i> Layouts
+          </button>
+        </h2>
+        <div
+          id="collapseFour"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <ul>
+              <li>Sibear-Layout</li>
+              <li>Column-Layout</li>
+              <li>Form Layout</li>
+            </ul>
+          </div>
+        </div>
+    
+        <!-- ---------------------Pages--------------------- -->
+        <div class="accordion-item accordion-flush">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+            <i data-feather="folder" class="p-1"></i> Pages
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li>Login</li>
+                <li>Register</li>
+                <li>Error 404</li>
+                <li>Gallery</li>
+                <li>Cart</li>
+              </ul>
+            </div>
+          </div>
+    
+          <!-- -----------------------Icons-------------------- -->
+          <div class="accordion-item accordion-flush">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseSix"
+              >
+              <i data-feather="wind"class="p-1"></i> Icons
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <li>Bootstrap Icons</li>
+                  <li>FontAwesome</li>
+                  <li>Themify</li>
+                  <li>Faether</li>
+                  <li>Boxicons</li>
+                </ul>
+              </div>
+            </div>
+    
+            <!-- ---------------------Ui - Kit------------------- -->
+            <div class="accordion-item accordion-flush">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="collapseSeven"
+                >
+                <i data-feather="layers" class="p-1"></i>Ui kit
+                </button>
+              </h2>
+              <div
+                id="collapseSeven"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Colors</li>
+                    <li>Alerts</li>
+                    <li>Typography</li>
+                    <li>modals</li>
+                    <li>Badges</li>
+                    <li>Indicators</li>
+                  </ul>
+                </div>
+              </div>
+    
+              <!-- --------------------------File Manager---------------- -->
+              <div class="accordion-item accordion-flush">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseEight"
+                    aria-expanded="false"
+                    aria-controls="collapseEignt"
+                  >
+                  <i data-feather="file" class="p-1"></i> File Manager
+                  </button>
+                </h2>
+                <div
+                  id="collapseEight"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                        <li>New file</li>
+                      <li>Save</li>
+                      <li>Upload</li>
+                      <li>Delete</li>
+                    </ul>
+                  </div>
+                </div>
+    
+    <!-- -------------------------Share----------------------- -->
+                <div class="accordion-item accordion-flush">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseNine"
+                      aria-expanded="false"
+                      aria-controls="collapseNine"
+                    >
+                      <i data-feather="share-2" class="p-1"></i> Share
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseNine"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <ul>
+                        <li>Gamil</li>
+                        <li>Github</li>
+                        <li>Whatsup</li>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Telegram</li>
+                      </ul>
+                      <!-- <button class="btn btn-secondary" (click)="switchTheme()">Switch theme</button>  -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+

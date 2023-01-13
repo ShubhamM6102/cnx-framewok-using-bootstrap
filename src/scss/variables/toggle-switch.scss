@@ -1,0 +1,23 @@
+@use '../theme/colors.scss';
+@import 'bootstrap/scss/bootstrap';
+
+.form-switch .form-check-input{
+    border: 1px solid colors.$primary-blue;
+}
+
+.form-switch .form-check-input:checked{
+  background-color:colors.$primary-blue; ;
+}
+
+.form-switch .form-check-input:focus{
+    border: 2px solid colors.$primary-yellow;
+}
+
+.form-switch .form-check-input:disabled{
+    border: 1px solid colors.$primary-blue;
+}
+
+.form-switch .form-check-input:checked:disabled{
+    background-color: colors.$primary-gray-2;
+    color: colors.$Charcoal-grey-color;
+}

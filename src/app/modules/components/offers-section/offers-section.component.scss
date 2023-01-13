@@ -1,0 +1,66 @@
+h5{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.d-flex-column{
+     background-image: url("/assets/images/eduonix-banner.png"); 
+     width: 370px;
+     height: 200px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+}
+.offers{
+    margin: 50px 0px 0px 0px;
+    padding: 30px 40px 10px 40px;
+    background-color: #f6f6f6;
+
+}
+
+.offer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-img{
+    background-image: url("/assets/images/payed-logo-white.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 360px;
+    height: 100px;  
+}
+
+ 
+  .img2{
+    @extend .d-flex-column;
+    background-image: url("/assets/images/payed-banner.png"); 
+  }
+
+  .img3{
+    @extend .d-flex-column;
+    background-image: url("/assets/images/driefcase.png"); 
+  }
+
+  .brand-img2{
+    @extend .brand-img;
+    background-image: url("/assets/images/driefcase_logo_white.png");
+  
+  }
+
+  .brand-img3{
+    @extend .brand-img;
+    background-image: url("/assets/images/eduonix-logo-white.png");
+  
+  }
+  P{
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .view-all{
+    margin-top: 40px;
+  }

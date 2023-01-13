@@ -1,0 +1,35 @@
+.d-flex {
+    align-items: center;
+    max-height: 50px;
+    background-color: #444444;
+    color: white;
+    font-size: 12px;
+    justify-content: space-between;
+    padding: 20px 30px 5px 30px;
+}
+p{
+    color: white;
+    font-size: 12px;
+}
+.links{
+    list-style-type: none;
+ display: inline;
+}
+.links li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.list{
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+
+// @import '../theme/colors';
+@use '../theme/colors.scss';
+
+$body-bg: colors.$black;
+$body-color: colors.$white;
+// $primary: colors.$primary-blue;
+
+$theme-colors: (
+   primary: colors.$primary-blue,
+   // btn-hover:colors.$primary-yellow,
+    //  "secondary":white,
+ //   "primary": #0074d9,
+    //  "primary": #003366,
+    // "danger": #ff4136,
+    // "primary-default":rgb(49, 44, 44),
+    // "d-primary":green,
+);
+
+
+// @import 'colors.scss';
+
+// $body-bg:       $black;
+// $body-color:    $white;
+
+@import 'bootstrap/scss/bootstrap'

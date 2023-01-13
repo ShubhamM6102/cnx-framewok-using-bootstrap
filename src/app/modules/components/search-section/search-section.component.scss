@@ -1,0 +1,29 @@
+.search-container{
+    max-width: 1240px;
+    margin: auto;
+    margin-top: 50px;
+}
+.offer-container{
+    background-color: gainsboro;
+    color: #97144d ;
+}
+p{
+    color:#97144d ;
+    align-self: flex-end;
+    padding-top: 8px;
+
+}
+span{
+    color: #97144d ;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.btn{
+    background-color: #97144d;
+    color: white;
+    border-radius: 3px;
+    height: 30px;
+}
+.search-bar{
+    width: 48%;
+}

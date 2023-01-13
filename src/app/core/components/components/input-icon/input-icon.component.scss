@@ -1,0 +1,78 @@
+@import './src/scss/theme/colors.scss';
+
+.text-area{
+    // width: 200px;
+    margin: 10px 15px 10px 15px;
+  }
+  
+  textarea.form-control{
+    width: 250px;
+    height: 100px;
+  }
+
+//   .d-flex{
+//     margin: 20px 0 20px 0;
+//   }
+  
+
+  h6{
+    color: $primary-blue;
+  }
+//------------------------------------Form css ------------------------------
+
+
+
+
+h6{
+  color: $primary-blue;
+}
+
+
+
+input,.input-group{
+    // width: 300px;
+    border-radius: 5px;
+    height: 45px;
+    // margin-left: 20px;
+
+  }
+
+  //--------------------Calender----------------------
+  .calender{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    z-index: 3;
+    background-color: inherit;
+   
+  }
+  //------------------Input + Icon + Title----------------
+
+
+
+.form span {
+  position: absolute;
+  right: 1px;
+  top: 20px;
+  width: 30px;
+ 
+}
+
+.form-input {
+  font-size: 14px;
+  // height: px;
+  text-indent: 3px;
+  padding: 40px 40px 10px 10px;
+
+}
+
+
+
+//----------responsiveess-------------------
+
+  
+
+
+
+

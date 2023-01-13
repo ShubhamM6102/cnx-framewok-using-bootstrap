@@ -1,0 +1,56 @@
+<!-- -----------------------------Text Area---------------------- -->
+<div class="d-flex-column flex-wrap border-bottom border-top border-2 border-gray pb-4 px-4 me-5 mt-4">
+    <h6 class="input mt-4">  Input</h6>
+
+<!--------------------------------Default---------------------------->
+    <div class="d-flex flex-wrap">
+    <div class="d-flex-column text-area">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <input type="text" class="form-control" placeholder="Text" />
+    </div>
+
+    <!--------------------------------Disabled---------------------------->
+    <div class="d-flex-column text-area">
+      <label for="exampleFormControlTextarea1" class="form-label">Disabled</label>
+      <input type="text" class="form-control" placeholder="Text" disabled />
+    </div>
+
+    <!--------------------------------Readonly---------------------------->
+    <div class="d-flex-column text-area">
+      <label for="exampleFormControlTextarea1" class="form-label">Readonly</label>
+      <input type="text" class="form-control" placeholder="Text" readonly />
+    </div>
+  <!-- </div> -->
+
+  <!--------------------------------Success---------------------------->
+  <!-- <div class="d-flex flex-wrap"> -->
+    <div class="d-flex-column text-area">
+      <label for="SuccesTextArea" class="form-label">Success</label>
+        <input
+          type="text"
+          class="form-control is-valid"
+          id="validationServer01"
+          placeholder="Text"
+          value=""
+          required
+        />
+      <div class="valid-feedback">Looks good!</div>
+    </div>
+
+    <!--------------------------------Validation---------------------------->
+    <div class="d-flex-column text-area">
+        <label for="validationTextarea" class="form-label">Validation</label>
+        <input
+        type="text"
+        class="form-control is-invalid"
+        id="validationServer05Feedback"
+        placeholder="Text"
+        value=""
+        required
+      />
+    <div class="invalid-feedback">
+      Please enter a valid message.
+    </div>
+  </div>
+</div>
+

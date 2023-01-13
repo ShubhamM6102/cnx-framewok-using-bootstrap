@@ -1,0 +1,237 @@
+@use '../theme/colors.scss';
+
+//--------HEADING-VARIABLES-----------
+//---- H1-VARIABLES---------------
+$font-size-h1: 76px;
+$letter-spacing-h1  : -1.5px;
+$line-height-h1: 144;
+
+//---- H2-VARIABLES---------------
+$font-size-h2: 60px;
+$letter-spacing-h2  : -0.5px;
+$line-height-h2: 90;
+
+//---- H3-VARIABLES---------------
+$font-size-h3: 48px;
+$letter-spacing-h3  : 0px;
+$line-height-h3: 72;
+
+//---- H4-VARIABLES---------------
+$font-size-h4: 34px;
+$letter-spacing-h4  : 0.25px;
+$line-height-h4: 51;
+
+//---- H5-VARIABLES---------------
+$font-size-h5: 24px;
+$letter-spacing-h5  : $letter-spacing-h3;
+$line-height-h5: 36;
+
+//---- H6-VARIABLES---------------
+$font-size-h6: 20px;
+$letter-spacing-h6  : $letter-spacing-h4;
+$line-height-h6: 30;
+
+//----BODY-VARIABLES----------
+//----BODY1-VARIABLES-----
+$font-size-b1: 18px;
+$letter-spacing-b1: 0.5px;
+$line-height-b1: 24px;
+
+//----BODY2-VARIABLES-----
+$font-size-b2: 14px;
+$letter-spacing-b2: 0.25px;
+$line-height-b2: 21;
+
+//----subtitle-VARIABLES----------
+//----subtitile1-VARIABLES-----
+$font-size-s1: 16px;
+$letter-spacing-s1: 0.15px;
+$line-height-s1: 24;
+
+//----subtitle2-VARIABLES-----
+$font-size-s2: 14px;
+$letter-spacing-s2: 0.1px;
+$line-height-s2: 21;
+
+//-------BUTTON-VARIABLES----------
+$btn-font-size: 14px;
+$btn-letter-spacing: 1.25px;
+$btn-line-height:21;
+
+//--------CAPTION-VARIABLES----------
+$caption-font-size:12px;
+$caption-letter-spacing:0.4px;
+$caption-line-height:18;
+
+//----OVERLINE-VARIABLES----------
+$overline-font-size:12px;
+$overline-letter-spacing:2px;
+$overline-line-height:18;
+
+//------FONT-WEIGHT----------
+$font-weight: 600;
+
+
+
+@import 'bootstrap/scss/bootstrap'
+//-------------Headings -------------------
+
+// @mixin heading($para1) {
+
+//  font-size:$para1 !important;
+//  color:$primary-space-gray;
+// // font-weight: $font-weight;
+
+// }
+
+// h1 {
+//   @include heading(font-size.$font-size-h1);
+// }
+
+
+
+// @mixin heading-h2 {
+//   font-size: map-get($heading-font-sizes, "2");
+//   letter-spacing: map-get($letter-spacing, "2" );
+ 
+//  }
+//  @mixin heading-h3 {
+//   font-size: map-get($heading-font-sizes, "3");
+//   letter-spacing: map-get($letter-spacing, "3" );
+ 
+//  }
+
+//  @mixin heading-h4 {
+//   font-size: map-get($heading-font-sizes, "4");
+//   letter-spacing: map-get($letter-spacing, "4" );
+//  }
+
+//  @mixin heading-h5 {
+//   font-size: map-get($heading-font-sizes, "5");
+//   letter-spacing: map-get($letter-spacing, "3" ); 
+//  }
+
+//  @mixin heading-h6 {
+//   font-size: map-get($heading-font-sizes, "6");
+//   letter-spacing: map-get($letter-spacing, "4" );
+//  }
+
+ //-----------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $display-font-sizes: (
+//   1: 5rem,
+//   2: 4.5rem,
+//   3: 4rem,
+//   4: 3.5rem,
+//   5: 3rem,
+//   6: 2.5rem
+// );
+
+// $display-font-weight: 300;
+// $display-line-height: $headings-line-height;
+
+// -------------------------------------------------
+// //https://material.angular.io/guide/typography
+// $my-custom-level: mat.define-typography-level(
+//   $font-family: Roboto,
+//   $font-weight: 400,
+//   $font-size: 1rem,
+//   $line-height: 1,
+//   $letter-spacing: normal,
+// );
+
+// --------------------------------------
+// @use '@angular/material' as mat;
+
+// $my-custom-typography-config: mat.define-typography-config(
+//   $headline-1: mat.define-typography-level(112px, 112px, 300, $letter-spacing: -0.05em),
+//   $headline-2: mat.define-typography-level(56px, 56px, 400, $letter-spacing: -0.02em),
+//   $headline-3: mat.define-typography-level(45px, 48px, 400, $letter-spacing: -0.005em),
+//   $headline-4: mat.define-typography-level(34px, 40px, 400),
+//   $headline-5: mat.define-typography-level(24px, 32px, 400),
+//   // ...
+// );
+
+// --------------------------------------------
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px
+// );
+
+// // media queries xs, md and lg
+// @media only screen and (min-width: map-get($grid-breakpoints, xs)) {
+//     $h1-font-size: 12px;
+// }
+
+// @media only screen and (min-width: map-get($grid-breakpoints, md)) {
+//     $h1-font-size: 18px;
+// }
+
+// @media only screen and (min-width: map-get($grid-breakpoints, lg)) {
+//     $h1-font-size: 50px;
+// }
+
+// --------------------------------------------------------------------------------------
+
+// $h1-font-size:                $font-size-base * 2.5 !default;
+// $h2-font-size:                $font-size-base * 2 !default;
+// $h3-font-size:                $font-size-base * 1.75 !default;
+// $h4-font-size:                $font-size-base * 1.5 !default;
+// $h5-font-size:                $font-size-base * 1.25 !default;
+// $h6-font-size:                $font-size-base !default;
+
+// //https://stackoverflow.com/questions/52907215/angular-6-define-global-scss-heading-styles-bootstrap
+
+
+// $h1-font-size: 550px;
+
+// $grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+
+// @media only screen and (min-width: map-get($grid-breakpoints, xs)) {
+//     $h1-font-size: 30px;
+//     h1 {
+//       font-size: $h1-font-size
+//     }
+// }
+
+// @media only screen and (min-width: map-get($grid-breakpoints, md)) {
+//     $h1-font-size: 10px;
+//     h1 {
+//       font-size: $h1-font-size
+//     }
+// }
+
+// @media only screen and (min-width: map-get($grid-breakpoints, lg)) {
+//     $h1-font-size: 50px;
+//     h1 {
+//       font-size: $h1-font-size
+//     }
+// }

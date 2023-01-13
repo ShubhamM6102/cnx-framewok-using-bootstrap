@@ -1,0 +1,54 @@
+@use '../theme/colors.scss';
+
+//----------------------Primary Button----------------------
+.btn.btn-primary {
+  background-color:colors.$primary-blue;
+  font-size: 14px;
+  border-radius: 1px;
+  // padding: 0 20px 0 20px;
+}
+.btn.btn-primary:hover{
+  background-color:colors.$primary-blue-hover ;
+  }
+.btn.btn-primary:active{
+background-color:colors.$primary-blue-active ;
+// color: red;;
+}
+.btn.btn-primary:focus {
+  background-color: colors.$primary-blue-focused;
+  border:2px solid colors.$primary-yellow ;
+}
+.btn.btn-primary:disabled{
+  background-color:colors.$primary-gray-2 ;
+  color:colors.$primary-space-gray;
+  }
+
+.btn-check{
+  background-color:colors.$black;
+}
+
+//-----------------Secondary-Button------------
+.btn.btn-outline-secondary{
+  font-size: 14px;
+  color: colors.$secondary-text-color;
+  // padding: 0 20px 0 20px;
+}
+
+.btn.btn-outline-secondary:hover{
+  background-color: colors.$secondary-hover;
+  color: colors.$secondary-fountain-blue;
+}
+
+.btn.btn-outline-secondary:active{
+background-color:colors.$secondary-active;
+}
+
+.btn.btn-outline-secondary:focus{
+background-color:colors.$secondary-focused ;
+color: colors.$secondary-text-color;
+border: 2px solid colors.$secondary-focused-border ;
+}
+
+
+@import 'bootstrap/scss/bootstrap'
+

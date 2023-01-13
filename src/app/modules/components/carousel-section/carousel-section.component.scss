@@ -1,0 +1,37 @@
+.carousel-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1240px;
+    margin-top: 150px;
+   
+    // justify-content: space-around;
+}
+
+.d-flex{
+    justify-content: space-around;
+    // padding: 10px;
+    margin-top: 15px;
+    // margin-top: 10px;
+    // margin-bottom: 10px;
+    // border-bottom: 2px solid red;
+}
+p{
+    font-size: 16px;
+}
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    
+    column-gap: 50px;
+
+}
+.mat-icon{
+    font-size: 30px;
+    justify-items: end;
+    color: #a4224d;
+}
+span{
+    justify-items: end;
+    margin-left: 188px;
+}

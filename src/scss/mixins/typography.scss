@@ -1,0 +1,51 @@
+@use '../variables/spacing';
+@use '../theme/colors.scss';
+@use '../variables/typography.scss';
+
+//-------------Headings -------------------
+
+@mixin heading($para1,$para2,$para3) {
+
+ font-size:$para1 !important;
+ letter-spacing: $para2 !important;
+ line-height: $para3 ;
+ color:$primary-space-gray;
+// font-weight: $font-weight;
+
+}
+
+h1 {
+    @include heading(typography.$font-size-h1,typography.$letter-spacing-h1,typography.$line-height-h1);
+}
+
+h2 {
+    @include heading(typography.$font-size-h2,typography.$letter-spacing-h2,typography.$line-height-h2);
+  }
+
+h3 {
+    @include heading(typography.$font-size-h3,typography.$letter-spacing-h3,typography.$line-height-h3);
+  }
+
+h4 {
+    @include heading(typography.$font-size-h4,typography.$letter-spacing-h4,typography.$line-height-h4);
+  }
+
+h5 {
+    @include heading(typography.$font-size-h5,typography.$letter-spacing-h5,typography.$line-height-h5);
+  }
+
+h6 {
+    @include heading(typography.$font-size-h6,typography.$letter-spacing-h6,typography.$line-height-h6);
+  }
+
+  p{
+    font-size:typography.$font-size-b1;
+    letter-spacing: typography.$letter-spacing-b1 !important;
+    line-height: typography.$line-height-b1 ;
+    color:$primary-space-gray;
+  }
+
+
+
+  
+@import 'bootstrap/scss/bootstrap'

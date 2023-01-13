@@ -1,0 +1,43 @@
+
+.d-flex-column{
+    margin: 40px 30px 30px 30px ;
+    padding: 20px;
+}
+h5{
+    margin: 0 0 40px 20px;
+}
+
+.products-box{
+    height: 150px;
+    width: 250px;
+   border:1px solid #e5e5e5;
+  text-align: center;
+      padding: 15px 0 15px 0;
+}
+
+.mat-icon{
+    font-size: 70px;
+    color: gray;
+    padding-right: 70px;
+    // transition-timing-function: 1s ;
+    transition: 1s ease;
+}
+p{
+    margin: 10px 0 10px 0;
+}
+.products-box:hover p {
+    color: #97144d ;
+}
+
+.products-box:hover .mat-icon{
+    color: #97144d;
+    transform: scale(1.3);
+ 
+}
+
+// .fa-dollar{
+//     font-size: 30px;
+// }
+// span{
+//     font-size: 30px;
+// }

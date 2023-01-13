@@ -1,0 +1,97 @@
+/* You can add global styles to this file, and also import other style files */
+
+//----NATURAL COLORS -----
+$black: #000000;
+$white: #ffffff;
+$gray-light: #f1f1f1;
+$header-icon-color:#4154f1;
+$header-icon-button:#cccccc;
+
+$main-section:#ECECF3;
+
+// -----PRIMARY-COLORS---------
+
+//1-faint, 2-medium, 3-dark
+$primary-blue: #003366;
+$primary-yellow: #FBAD18;
+$primary-deep-blue: #001933;
+$primary-space-gray: #414141;
+$primary-gray-3: #8D8D8D;
+$primary-gray-2: #D9D9D9;
+$primary-gray-1: #F2F2F2;
+
+//------SECONDARY-COLORS------------------
+$secondary:#6c757d;
+$secondary-dark-orange: #F77F00;
+$secondary-light-orange: #F8A75C;
+$secondary-rusty-orange: #C45D1C;
+
+$secondary-rusty-red: #DB324D;
+$secondary-rosy-pink: #E87080;
+$secondary-vivid-burgundy: #AA2137;
+
+$secondary-fountain-blue:#49AFBE;
+$secondary-seafoam-blue: #7DC9D4;
+$secondary-Sea-turtle-green: #388590;
+
+$secondary-salad-green: #B3C344;
+$secondary-chinese-green: #CCD570;
+$secondary-old-moss-green: #869231;
+
+
+//-------------NEUTRAL-COLORS------------
+
+$deep-blue-color:#001933;
+$Charcoal-grey-color:#414141;
+$medium-grey-color: #8D8D8D ;
+$light-grey-color:#D9D9D9;
+$anti-flash-white-color:#F2F2F2;
+
+//-----------STATUS COLORS--------------------
+
+$accent-validation: #FFB82E;
+$accent-error: #F93232;
+$accent-success: #439F6E;
+$accent-information: #00A3FF;
+$light:#f8f9fa;
+$dark:#212529;
+
+//----- GRADIENT COLORS----------
+
+$gradient-red: #fa3a0a;
+$gradient-orange: #f77f00;
+$gradient-green: #b3c344;
+$gradient-light-blue: #49afbe;
+$gradient-dark-blue: #003366;
+$gradient_red-orange: linear-gradient($gradient-red, $gradient-orange);
+$gradient_green-light-blue: linear-gradient($gradient-green, $gradient-light-blue);
+$gradient_dark-blue-light-blue: linear-gradient($gradient-dark-blue, $gradient-light-blue);
+
+
+//---------------------Hover -Colors-------------
+$primary-blue-hover:#275cb2;
+$secondary-hover:#edf5fe;
+
+//------------------------Focused-Colors------------
+$primary-blue-focused:#3070d8;
+$secondary-focused-border:#fab124;
+$secondary-focused:#edf5fe;
+$secondary-text-color:#88a7d7;
+
+//------------------Active-Colors-------------
+$primary-blue-active:#22529e;
+$secondary-active:#edf5fe;
+
+//-------------------Disabled-Colors---------
+$secondary-disabled-text:#d9d9d9;
+//-------PADDING VARIABLES--------
+$padding_2-5: 10px;
+$padding_5: 20px;
+$padding_10: 40px;
+$padding_20: 80px;
+$padding_40: 160px;
+$padding_80: 320px;
+
+///----
+// @import "node_modules/bootstrap/scss/bootstrap";
+// @import 'bootstrap/scss/bootstrap'

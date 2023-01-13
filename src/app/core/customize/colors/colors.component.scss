@@ -1,0 +1,137 @@
+ @import './src/scss/theme/colors.scss';
+ 
+ .d-flex-column{
+ padding: 10px 20px 10px 20px;
+ }
+ 
+ .square-box{
+   width: 90px;
+   height: 90px;
+   border-radius: 10px;
+ }
+ h5{
+   margin: 30px;
+   margin-top: 40px;
+   padding-bottom: 10px;
+   // border-bottom: 1px solid black;
+}
+
+p{
+   margin: 5px 0 5px 0;
+}
+
+
+ //-------------primary-colors----------
+ .p-blue{
+    background:$primary-blue;
+ }
+
+ .p-yellow{
+    background:$primary-yellow ;
+ }
+
+ .p-deep-blue{
+    background: $primary-deep-blue;
+ }
+
+ .p-space-gray{
+    background: $primary-space-gray;
+ }
+
+ .p-gray-3{
+    background: $primary-gray-3;
+ }
+
+ .p-gray-2{
+    background: $primary-gray-2;
+ }
+
+ .p-gray-1{
+    background: $primary-gray-1;
+ }
+
+ //------------secondary-colors--------------
+ .s-dark-orange{
+    background: $secondary-dark-orange;
+ }
+
+ .s-light-orange{
+    background: $secondary-light-orange;
+ }
+
+ .s-rusty-orange{
+    background: $secondary-rusty-orange;
+ }
+
+ .s-rusty-red{
+    background: $secondary-rusty-red;
+ }
+
+.s-rosy-pink{
+    background: $secondary-rosy-pink;
+}
+
+.s-vivid-burgundy{
+    background: $secondary-vivid-burgundy;
+}
+
+.s-fountain-blue{
+    background: $secondary-fountain-blue;
+}
+
+.s-seafoam-blue{
+    background: $secondary-seafoam-blue;
+}
+
+.s-turtle-green{
+   background: $secondary-Sea-turtle-green;
+}
+
+.s-salad-green{
+    background: $secondary-salad-green;
+}
+
+.s-chinese-green{
+    background: $secondary-chinese-green;
+}
+
+.s-old-moss-green{
+    background: $secondary-old-moss-green;
+}
+
+//--------------status-colors-----------
+.validation{
+    background:$accent-validation;
+}
+
+.error{
+    background:$accent-error ;
+}
+
+.success{
+    background:$accent-success ;
+}
+
+.information{
+    background: $accent-information;
+}
+
+//----------------Gradient-colors----------
+.rectangle-box{
+   width: 200px;
+   height: 86px;
+   border-radius: 10px;
+}
+.g-red-orange{
+background: linear-gradient(to right,$gradient-red,$gradient-orange);
+}
+
+.g-green-light-blue{
+   background: linear-gradient(to right,$gradient-green,$gradient-light-blue);
+   }
+
+   .g-dark-blue-light-blue{
+      background: linear-gradient(to right,$gradient-dark-blue,$gradient-light-blue);
+      }
+//  @import "node_modules/bootstrap/scss/bootstrap";
+// @import 'bootstrap/scss/bootstrap'

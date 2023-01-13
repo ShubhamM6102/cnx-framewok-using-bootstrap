@@ -1,0 +1,90 @@
+.bg {
+    background-color: white;
+    // padding-top: 18px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+}
+.logo{
+    background-color: #871f42;
+    position: relative;
+    top: -1px;
+    right: 1px;
+}
+.cnx-logo{
+    width: 220px;
+    position: relative;
+    top: -20px;
+    height: 42px;
+    right: -7px;
+}
+
+.dropbtn {
+    background-color: inherit;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    //position: relative;
+    background-color: #f1f1f1;
+     min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 6;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    // width: 200px;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(208, 122, 122);
+    color: #97144d;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: inherit;
+    color: #97144d;
+}
+
+.apply-loan{
+    color: #97144d;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn{
+    background-color: #97144d;
+    color: white;
+    border-radius: 3px;
+}
+
+//   a + div {
+//     display: none;
+// }
+
+// a:hover + div {
+//     display: block;
+//     color: green;
+//     font-size: 25px;
+// }

@@ -1,0 +1,103 @@
+<!-- -----------------------------Text Area---------------------- -->
+<div class="d-flex-column flex-wrap border-bottom border-2 border-gray pb-4 px-4 me-5 mt-4">
+    <h6 class="input">  Input + Icon</h6>
+
+<!--------------------------------Default---------------------------->
+    <div class="d-flex flex-wrap">
+    <div class="d-flex-column text-area">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control "
+          placeholder="Text"
+        />
+        <span class="bg-white calender">  <i class="fa-regular fa-calendar"></i></span>
+        <!-- <button class="input-group-text bg-white border-start-0 border">
+          <i class="fa fa-calendar"></i>
+        </button> -->
+      </div>
+    </div>
+
+    <!--------------------------------Disabled---------------------------->
+    <div class="d-flex-column text-area">
+      <label for="exampleFormControlTextarea1" class="form-label">Disabled</label>
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control "
+          placeholder="Text"
+          disabled
+        />
+        <span class=" calender">  <i class="fa-regular fa-calendar"></i></span>
+        <!-- <button class="input-group-text border-start-0 border disabled" disabled>
+          <i class="fa fa-calendar"></i>
+        </button> -->
+      </div>
+    </div>
+
+    <!--------------------------------Readonly---------------------------->
+    <div class="d-flex-column text-area">
+      <label for="exampleFormControlTextarea1" class="form-label">Readonly</label>
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control "
+          placeholder="Text"
+          readonly
+        />
+        <span class="bg-white calender">  <i class="fa-regular fa-calendar"></i></span>
+        <!-- <button
+          class="input-group-text bg-white border-start-0 border readonly"
+          readonly
+        >
+          <i class="fa fa-calendar"></i>
+        </button> -->
+      </div>
+    </div>
+  <!-- </div> -->
+
+  <!--------------------------------Success---------------------------->
+  <!-- <div class="d-flex flex-wrap"> -->
+    <div class="d-flex-column text-area">
+      <label for="SuccesTextArea" class="form-label">Success</label>
+      <div class="form-icon ">
+        <input
+          type="text"
+          class="form-control is-valid"
+          id="validationServer01"
+          placeholder="Text"
+          value=""
+          required
+        />
+        <!-- <label for="floatingInputValue">Title</label> -->
+        <div class="valid-feedback">Looks good!</div>
+        <!-- <span class="bg-white calender">  <i class="fa-regular fa-calendar"></i></span> -->
+      
+      </div>
+    </div>
+
+    <!--------------------------------Validation---------------------------->
+    <div class="d-flex-column text-area">
+        <label for="validationTextarea" class="form-label">Validation</label>
+        <div class="d-flex">
+            <div class="form-icon ">
+              <input
+                type="text"
+                class="form-control is-invalid"
+                id="validationServer05Feedback"
+                placeholder="Text"
+                value=""
+                required
+              />
+              <!-- <label for="floatingInputValue">Title</label> -->
+              <div id="validationServer05Feedback" class="invalid-feedback">
+                Please provide a valid text.
+              </div>
+              <!-- <span class="bg-white calender">  <i class="fa-regular fa-calendar"></i></span> -->
+            
+            </div>
+          </div>
+  </div>
+</div>
+
