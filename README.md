@@ -1,5 +1,9 @@
 # CnxFramework
 
+*Download the ZIP file and open the code in vs studio, run the command npm install ; this will install all the packages for the frameworks.Then run command npm run start for compiling , you will get the desired output.*
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
 
 ## Development server
